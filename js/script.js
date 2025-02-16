@@ -13,4 +13,13 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+document.addEventListener("DOMContentLoaded", function () {
+    const menu = document.querySelector(".nav-links");
+    const burger = document.querySelector(".hamburger-menu");
+
+    burger.addEventListener("click", function () {
+        menu.classList.toggle("active");
+    });
+});
+
 
